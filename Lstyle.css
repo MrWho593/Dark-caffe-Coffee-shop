@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/452/100/984/restaurant-bar-coffee-shop.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-family: cursive;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff6e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+    padding: 10px;
+}
+input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button.submit{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: #4CAF50;
+    padding: 10px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.submit:hover{
+    background-color: #45a049;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+}
